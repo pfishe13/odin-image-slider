@@ -1,0 +1,52 @@
+.slider-frame {
+  background-color: cadetblue;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.images-container {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  /* height: 100%; */
+}
+
+.image {
+  height: 100px;
+  display: none;
+}
+
+.images-container > :first-child {
+  display: block;
+  transform: scale(0.25);
+}
+
+.images-container > :nth-child(2) {
+  display: block;
+  transform: scale(0.45);
+}
+
+.images-container > :nth-child(3) {
+  display: block;
+  transform: scale(0.65);
+}
+
+.images-container > :nth-child(4) {
+  display: block;
+}
+
+.images-container > :nth-child(5) {
+  display: block;
+  transform: scale(0.65);
+}
+
+.images-container > :nth-child(6) {
+  display: block;
+  transform: scale(0.45);
+}
+
+.images-container > :nth-child(7) {
+  display: block;
+  transform: scale(0.25);
+}
